@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<kml xmlns="http://earth.google.com/kml/2.1"> 
+  <Document> 
+    <name>SSARA Federated Query</name> 
+    <description>This is KML generated with the Seamless SAR Archive (SSARA) federated querier</description> 
+    <Style id="yellowLine"><LineStyle><color>7f00FFFF</color><width>4</width></LineStyle><PolyStyle><color>7fffffff</color></PolyStyle></Style>
+    <Style id="redLine"><LineStyle><color>7f0000FF</color><width>4</width></LineStyle><PolyStyle><color>7fffffff</color></PolyStyle></Style>
+    <Style id="blueLine"><LineStyle><color>7fFF0000</color><width>4</width></LineStyle><PolyStyle><color>7fffffff</color></PolyStyle></Style>
+    <Style id="cyanLine"><LineStyle><color>7fFFFF00</color><width>4</width></LineStyle><PolyStyle><color>7fffffff</color></PolyStyle></Style>
+    <Style id="purpleLine"><LineStyle><color>7fFF00FF</color><width>4</width></LineStyle><PolyStyle><color>7fffffff</color></PolyStyle></Style>
+    <Style id="greenLine"><LineStyle><color>7f00FF00</color><width>4</width></LineStyle><PolyStyle><color>7fffffff</color></PolyStyle></Style>
+    <Style id="magentaLine"><LineStyle><color>7fFF00FF</color><width>4</width></LineStyle><PolyStyle><color>7fffffff</color></PolyStyle></Style>
+    <Style id="orangeLine"><LineStyle><color>7f0066FF</color><width>4</width></LineStyle><PolyStyle><color>7fffffff</color></PolyStyle></Style>
+
+
+
+ 
+	<Folder><name>Sentinel-1A (12)</name>
+	
+                
+        
+
+        
+	        <Folder><name>IW (12)</name>
+		
+		
+	                <Folder><name>106 (2)</name>
+	                
+				<Placemark><name>2021-01-08T23:29:09.000000</name>
+				<styleUrl>#magentaLine</styleUrl>
+				
+				<description><![CDATA[
+				Collection:ASF
+				<br>platform: Sentinel-1A
+				<br>Absolute orbit: 36053
+				<br>Relative orbit: 106
+				<br>First Frame : 2950
+				<br>Final Frame : 2950
+				<br>Start Time: 2021-01-08T23:29:09.000000
+				<br>Stop Time: 2021-01-08T23:29:36.000000
+				<br>Beam Mode : IW
+				<br>Beam Swath : None
+				<br>Flight Direction : DESCENDING
+				<br>Look Direction : R
+				<br>Polarization : VV+VH
+				<br>Processing Level : SLC
+				<br>Download URL : https://datapool.asf.alaska.edu/SLC/SA/S1A_IW_SLC__1SDV_20210108T232909_20210108T232936_036053_0439A7_B76A.zip
+				]]></description>
+				<LineString><tessellate>1</tessellate><coordinates>96.210915,31.086035,0 96.530731,32.709251,0 99.170494,32.310131,0 98.802856,30.68457,0 96.210915,31.086035,0 </coordinates></LineString>
+				</Placemark>	
+			
+				<Placemark><name>2021-01-08T23:28:44.000000</name>
+				<styleUrl>#magentaLine</styleUrl>
+				
+				<description><![CDATA[
+				Collection:ASF
+				<br>platform: Sentinel-1A
+				<br>Absolute orbit: 36053
+				<br>Relative orbit: 106
+				<br>First Frame : 2919
+				<br>Final Frame : 2919
+				<br>Start Time: 2021-01-08T23:28:44.000000
+				<br>Stop Time: 2021-01-08T23:29:11.000000
+				<br>Beam Mode : IW
+				<br>Beam Swath : None
+				<br>Flight Direction : DESCENDING
+				<br>Look Direction : R
+				<br>Polarization : VV+VH
+				<br>Processing Level : SLC
+				<br>Download URL : https://datapool.asf.alaska.edu/SLC/SA/S1A_IW_SLC__1SDV_20210108T232844_20210108T232911_036053_0439A7_24D0.zip
+				]]></description>
+				<LineString><tessellate>1</tessellate><coordinates>96.505775,32.579826,0 96.839035,34.25948,0 99.528519,33.862328,0 99.141907,32.180462,0 96.505775,32.579826,0 </coordinates></LineString>
+				</Placemark>	
+			
+			</Folder>
+		
+	                <Folder><name>135 (2)</name>
+	                
+				<Placemark><name>2021-01-10T23:14:05.000000</name>
+				<styleUrl>#magentaLine</styleUrl>
+				
+				<description><![CDATA[
+				Collection:ASF
+				<br>platform: Sentinel-1A
+				<br>Absolute orbit: 36082
+				<br>Relative orbit: 135
+				<br>First Frame : 3050
+				<br>Final Frame : 3050
+				<br>Start Time: 2021-01-10T23:14:05.000000
+				<br>Stop Time: 2021-01-10T23:14:32.000000
+				<br>Beam Mode : IW
+				<br>Beam Swath : None
+				<br>Flight Direction : DESCENDING
+				<br>Look Direction : R
+				<br>Polarization : VV+VH
+				<br>Processing Level : SLC
+				<br>Download URL : https://datapool.asf.alaska.edu/SLC/SA/S1A_IW_SLC__1SDV_20210110T231405_20210110T231432_036082_043AB1_0936.zip
+				]]></description>
+				<LineString><tessellate>1</tessellate><coordinates>99.3619,26.087208,0 99.677322,27.711351,0 102.189926,27.302734,0 101.837234,25.675682,0 99.3619,26.087208,0 </coordinates></LineString>
+				</Placemark>	
+			
+				<Placemark><name>2021-01-10T23:13:40.000000</name>
+				<styleUrl>#magentaLine</styleUrl>
+				
+				<description><![CDATA[
+				Collection:ASF
+				<br>platform: Sentinel-1A
+				<br>Absolute orbit: 36082
+				<br>Relative orbit: 135
+				<br>First Frame : 3020
+				<br>Final Frame : 3020
+				<br>Start Time: 2021-01-10T23:13:40.000000
+				<br>Stop Time: 2021-01-10T23:14:07.000000
+				<br>Beam Mode : IW
+				<br>Beam Swath : None
+				<br>Flight Direction : DESCENDING
+				<br>Look Direction : R
+				<br>Polarization : VV+VH
+				<br>Processing Level : SLC
+				<br>Download URL : https://datapool.asf.alaska.edu/SLC/SA/S1A_IW_SLC__1SDV_20210110T231340_20210110T231407_036082_043AB1_72E8.zip
+				]]></description>
+				<LineString><tessellate>1</tessellate><coordinates>99.6427,27.583691,0 99.9589,29.207235,0 102.501785,28.802504,0 102.145447,27.176201,0 99.6427,27.583691,0 </coordinates></LineString>
+				</Placemark>	
+			
+			</Folder>
+		
+	                <Folder><name>33 (4)</name>
+	                
+				<Placemark><name>2021-01-03T23:22:15.000000</name>
+				<styleUrl>#magentaLine</styleUrl>
+				
+				<description><![CDATA[
+				Collection:ASF
+				<br>platform: Sentinel-1A
+				<br>Absolute orbit: 35980
+				<br>Relative orbit: 33
+				<br>First Frame : 3045
+				<br>Final Frame : 3045
+				<br>Start Time: 2021-01-03T23:22:15.000000
+				<br>Stop Time: 2021-01-03T23:22:42.000000
+				<br>Beam Mode : IW
+				<br>Beam Swath : None
+				<br>Flight Direction : DESCENDING
+				<br>Look Direction : R
+				<br>Polarization : VV+VH
+				<br>Processing Level : SLC
+				<br>Download URL : https://datapool.asf.alaska.edu/SLC/SA/S1A_IW_SLC__1SDV_20210103T232215_20210103T232242_035980_043713_5AB3.zip
+				]]></description>
+				<LineString><tessellate>1</tessellate><coordinates>97.370186,26.309313,0 97.686104,27.933424,0 100.220123,27.521984,0 99.866257,25.895012,0 97.370186,26.309313,0 </coordinates></LineString>
+				</Placemark>	
+			
+				<Placemark><name>2021-01-03T23:21:50.000000</name>
+				<styleUrl>#magentaLine</styleUrl>
+				
+				<description><![CDATA[
+				Collection:ASF
+				<br>platform: Sentinel-1A
+				<br>Absolute orbit: 35980
+				<br>Relative orbit: 33
+				<br>First Frame : 3015
+				<br>Final Frame : 3015
+				<br>Start Time: 2021-01-03T23:21:50.000000
+				<br>Stop Time: 2021-01-03T23:22:17.000000
+				<br>Beam Mode : IW
+				<br>Beam Swath : None
+				<br>Flight Direction : DESCENDING
+				<br>Look Direction : R
+				<br>Polarization : VV+VH
+				<br>Processing Level : SLC
+				<br>Download URL : https://datapool.asf.alaska.edu/SLC/SA/S1A_IW_SLC__1SDV_20210103T232150_20210103T232217_035980_043713_5838.zip
+				]]></description>
+				<LineString><tessellate>1</tessellate><coordinates>97.631538,27.808781,0 97.948021,29.432499,0 100.49839,29.027781,0 100.141281,27.401333,0 97.631538,27.808781,0 </coordinates></LineString>
+				</Placemark>	
+			
+				<Placemark><name>2021-01-03T23:21:26.000000</name>
+				<styleUrl>#magentaLine</styleUrl>
+				
+				<description><![CDATA[
+				Collection:ASF
+				<br>platform: Sentinel-1A
+				<br>Absolute orbit: 35980
+				<br>Relative orbit: 33
+				<br>First Frame : 2986
+				<br>Final Frame : 2986
+				<br>Start Time: 2021-01-03T23:21:26.000000
+				<br>Stop Time: 2021-01-03T23:21:52.000000
+				<br>Beam Mode : IW
+				<br>Beam Swath : None
+				<br>Flight Direction : DESCENDING
+				<br>Look Direction : R
+				<br>Polarization : VV+VH
+				<br>Processing Level : SLC
+				<br>Download URL : https://datapool.asf.alaska.edu/SLC/SA/S1A_IW_SLC__1SDV_20210103T232126_20210103T232152_035980_043713_20F9.zip
+				]]></description>
+				<LineString><tessellate>1</tessellate><coordinates>97.925522,29.303038,0 98.24334,30.926146,0 100.836136,30.523388,0 100.474472,28.897726,0 97.925522,29.303038,0 </coordinates></LineString>
+				</Placemark>	
+			
+				<Placemark><name>2021-01-03T23:21:01.000000</name>
+				<styleUrl>#magentaLine</styleUrl>
+				
+				<description><![CDATA[
+				Collection:ASF
+				<br>platform: Sentinel-1A
+				<br>Absolute orbit: 35980
+				<br>Relative orbit: 33
+				<br>First Frame : 2956
+				<br>Final Frame : 2956
+				<br>Start Time: 2021-01-03T23:21:01.000000
+				<br>Stop Time: 2021-01-03T23:21:28.000000
+				<br>Beam Mode : IW
+				<br>Beam Swath : None
+				<br>Flight Direction : DESCENDING
+				<br>Look Direction : R
+				<br>Polarization : VV+VH
+				<br>Processing Level : SLC
+				<br>Download URL : https://datapool.asf.alaska.edu/SLC/SA/S1A_IW_SLC__1SDV_20210103T232101_20210103T232128_035980_043713_1AC9.zip
+				]]></description>
+				<LineString><tessellate>1</tessellate><coordinates>98.213287,30.797548,0 98.532692,32.420254,0 101.165703,32.020329,0 100.799126,30.395248,0 98.213287,30.797548,0 </coordinates></LineString>
+				</Placemark>	
+			
+			</Folder>
+		
+	                <Folder><name>4 (1)</name>
+	                
+				<Placemark><name>2021-01-01T23:36:54.000000</name>
+				<styleUrl>#magentaLine</styleUrl>
+				
+				<description><![CDATA[
+				Collection:ASF
+				<br>platform: Sentinel-1A
+				<br>Absolute orbit: 35951
+				<br>Relative orbit: 4
+				<br>First Frame : 2914
+				<br>Final Frame : 2914
+				<br>Start Time: 2021-01-01T23:36:54.000000
+				<br>Stop Time: 2021-01-01T23:37:22.000000
+				<br>Beam Mode : IW
+				<br>Beam Swath : None
+				<br>Flight Direction : DESCENDING
+				<br>Look Direction : R
+				<br>Polarization : VV+VH
+				<br>Processing Level : SLC
+				<br>Download URL : https://datapool.asf.alaska.edu/SLC/SA/S1A_IW_SLC__1SDV_20210101T233654_20210101T233722_035951_04360D_030E.zip
+				]]></description>
+				<LineString><tessellate>1</tessellate><coordinates>94.480698,32.807041,0 94.813934,34.48597,0 97.506126,34.090157,0 97.11908,32.409031,0 94.480698,32.807041,0 </coordinates></LineString>
+				</Placemark>	
+			
+			</Folder>
+		
+	                <Folder><name>62 (3)</name>
+	                
+				<Placemark><name>2021-01-05T23:05:56.000000</name>
+				<styleUrl>#magentaLine</styleUrl>
+				
+				<description><![CDATA[
+				Collection:ASF
+				<br>platform: Sentinel-1A
+				<br>Absolute orbit: 36009
+				<br>Relative orbit: 62
+				<br>First Frame : 3056
+				<br>Final Frame : 3056
+				<br>Start Time: 2021-01-05T23:05:56.000000
+				<br>Stop Time: 2021-01-05T23:06:23.000000
+				<br>Beam Mode : IW
+				<br>Beam Swath : None
+				<br>Flight Direction : DESCENDING
+				<br>Look Direction : R
+				<br>Polarization : VV+VH
+				<br>Processing Level : SLC
+				<br>Download URL : https://datapool.asf.alaska.edu/SLC/SA/S1A_IW_SLC__1SDV_20210105T230556_20210105T230623_036009_04380E_F824.zip
+				]]></description>
+				<LineString><tessellate>1</tessellate><coordinates>101.381187,25.796534,0 101.6968,27.420919,0 104.215263,27.009203,0 103.86274,25.381897,0 101.381187,25.796534,0 </coordinates></LineString>
+				</Placemark>	
+			
+				<Placemark><name>2021-01-05T23:05:31.000000</name>
+				<styleUrl>#magentaLine</styleUrl>
+				
+				<description><![CDATA[
+				Collection:ASF
+				<br>platform: Sentinel-1A
+				<br>Absolute orbit: 36009
+				<br>Relative orbit: 62
+				<br>First Frame : 3026
+				<br>Final Frame : 3026
+				<br>Start Time: 2021-01-05T23:05:31.000000
+				<br>Stop Time: 2021-01-05T23:05:58.000000
+				<br>Beam Mode : IW
+				<br>Beam Swath : None
+				<br>Flight Direction : DESCENDING
+				<br>Look Direction : R
+				<br>Polarization : VV+VH
+				<br>Processing Level : SLC
+				<br>Download URL : https://datapool.asf.alaska.edu/SLC/SA/S1A_IW_SLC__1SDV_20210105T230531_20210105T230558_036009_04380E_5560.zip
+				]]></description>
+				<LineString><tessellate>1</tessellate><coordinates>101.667229,27.292484,0 101.983665,28.916285,0 104.535683,28.507748,0 104.17942,26.881186,0 101.667229,27.292484,0 </coordinates></LineString>
+				</Placemark>	
+			
+				<Placemark><name>2021-01-05T23:05:06.000000</name>
+				<styleUrl>#magentaLine</styleUrl>
+				
+				<description><![CDATA[
+				Collection:ASF
+				<br>platform: Sentinel-1A
+				<br>Absolute orbit: 36009
+				<br>Relative orbit: 62
+				<br>First Frame : 2996
+				<br>Final Frame : 2996
+				<br>Start Time: 2021-01-05T23:05:06.000000
+				<br>Stop Time: 2021-01-05T23:05:33.000000
+				<br>Beam Mode : IW
+				<br>Beam Swath : None
+				<br>Flight Direction : DESCENDING
+				<br>Look Direction : R
+				<br>Polarization : VV+VH
+				<br>Processing Level : SLC
+				<br>Download URL : https://datapool.asf.alaska.edu/SLC/SA/S1A_IW_SLC__1SDV_20210105T230506_20210105T230533_036009_04380E_483B.zip
+				]]></description>
+				<LineString><tessellate>1</tessellate><coordinates>101.957382,28.787369,0 102.275009,30.410559,0 104.865898,30.004557,0 104.505333,28.378773,0 101.957382,28.787369,0 </coordinates></LineString>
+				</Placemark>	
+			
+			</Folder>
+		
+		</Folder>
+        
+	</Folder>
+
+
+
+
+</Document></kml>
+
