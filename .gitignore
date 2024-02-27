@@ -1,3 +1,6 @@
+# do not save the auto-plot figs from each step
+notebooks/*/*.png
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
