@@ -1,0 +1,91 @@
+# vim: set filetype=cfg:
+##------------------------------- ISCE tops/stripmapStack ------------------------------##
+isce.processor          = alosStack                 #[stripmapStack, topsStack], auto for topsStack
+isce.workflow           = interferogram             #[slc / interferogram / offset], auto for interferogram
+isce.demSNWE            = auto                      #[S, N, W, E] in degree, auto for none
+isce.demFile            = ../DEM/copernicus.dem     #DEM file name, auto for none (generate on the fly)
+isce.demSource          = cop                       #[srtm1, srtm3, nasadem, gsi_dehm], auto for srtm1
+isce.demFillValue       = 0                         #[0 / 1 / -32768], value used to fill missing DEMs, auto for -32768
+isce.boundingBox        = none  #25.6, 26.8, 101.6, 103.4  #[S, N, W, E] in degree, auto for none
+isce.referenceDate      = 170210                    #[20150101 / no], auto for none (1st date)
+isce.azimuthLooks       = 4                         #[int], auto for 3
+isce.rangeLooks         = 2                         #[int], auto for 9
+isce.filtStrength       = 0.8                       #[0.0-1.0], auto for 0.5
+isce.unwrapMethod       = snaphu                    #[snaphu / icu], auto for snaphu
+isce.useGPU             = yes                       #[yes / no], auto for no
+isce.numProcess         = 48                        #[int>=1], number of parallel processes, auto for 4
+isce.updateMode         = yes                       #[yes / no], auto for yes
+
+##----------for topsStack only:
+isce.coregistration     = geometry                  #[geometry / NESD], auto for geometry
+isce.swathNum           = 1,2,3                     #[1,2,3], auto for '1,2,3'
+isce.numConnection      = 10                        #[int>=1], auto for 3
+isce.orbitDir           = ~/data/aux/S1/aux_poeorb/ #Directory with all orbit files
+isce.auxDir             = ~/data/aux/S1/aux_cal/    #Directory with all aux   files
+isce.startDate          = none                      #[20140825 / no], auto for none (1st date)
+isce.endDate            = none                      #[20190622 / no], auto for none (last date)
+## ionospheric phase estimation
+## copy $ISCE_STACK/topsStack/ion_param.txt to the local dir to turn ON iono
+isce.numConnectionIon   = 3                         #[int>=1], auto for 3
+isce.paramIonFile       = ./ion_param.txt           #Ion param file, auto for none (no iono estimation)
+
+##----------for stripmapStack only:
+## Sensors with zero doppler SLC: ALOS2
+## link: https://github.com/isce-framework/isce2/blob/master/components/isceobj/StripmapProc/Factories.py#L61
+isce.zeroDopper         = yes                       #[yes / no], use zero doppler geometry for processing, auto for no
+isce.focus              = no                        #[yes / no], do focus, auto for yes (for RAW data)
+isce.ALOS.fbd2fbs       = no                        #[yes / no], auto for yes, convert FBD to FBS for ALOS-1
+isce.ALOS2.polarization = HH                        #[HH / VV], auto for HH
+isce.maxTempBaseline    = 1800                      # auto for 1800 days
+isce.maxPerpBaseline    = 1800                      # auto for 1800 meters
+isce.applyWaterMask     = yes                       # auto for yes
+
+##----------for alosStack only:
+isce.numConnection      = 6
+isce.polarization       = HH
+isce.numConnectionIono  = 6
+isce.referenceDateIono  = 170210
+isce.azimuthLooks2      = 2
+isce.rangeLooks2        = 2
+## ionospheric phase estimation
+isce.doIonoEstimation   = True
+isce.appIonoCorrection  = False
+isce.filtSubIfg         = True
+isce.subIfgFiltStrength = 0.8
+
+#####-------offset stack
+offset.processor          = topsStack
+offset.numProcess         = 6       # number of parallel processes
+offset.waterMaskFillValue = 0       # -1 for water body, 0 for land
+offset.numConnection      = 10      # recommended for topsStack, set to 0 or no to turn off
+offset.maxTempBaseline    = 0       # recommended for stripmapStack, set to 0 or no to turn off
+offset.maxPerpBaseline    = 0       # recommended for stripmapStack, set to 0 or no to turn off
+##----------for cuDenseOffsets:
+offset.winSize            = 256,128
+offset.searchRange        = 8,8
+offset.stepSize           = 100,30
+offset.rawOverSampFactor  = 2
+offset.corOverSampFactor  = 64
+offset.numWinPerChunk     = 150,1
+offset.redo               = 1   # 1 (force redo) or 0 ignore existing files
+##----------for MaskAndFilter:
+offset.filterSize         = 15
+pffset.maxOffsetStd       = 0.03
+
+
+
+##---------------------------------------- MintPy ----------------------------------------##
+mintpy.compute.maxMemory    = 30
+mintpy.compute.cluster      = local
+mintpy.compute.numWorker    = 32
+mintpy.load.processor       = isce  #[isce,snap,gamma,roipac], auto for isce
+mintpy.load.autoPath        = yes
+mintpy.load.corFile         = ../pairs/*-*/insar/*-*_4rlks_8alks.phsig
+
+mintpy.network.coherenceBased       = yes
+mintpy.network.minCoherence         = 0.6
+mintpy.reference.lalo               = 26.154, 102.218
+mintpy.networkInversion.weightFunc  = no #var
+mintpy.networkInversion.minTempCoh  = 0.8
+mintpy.deramp                       = linear
+
