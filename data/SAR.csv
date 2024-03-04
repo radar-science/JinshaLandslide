@@ -1,14 +1,14 @@
 ﻿Sensor,Orbit direction,Track,Mode,Beam,Start frame,End frame,Start date,End date,# of scenes,# of acquisitions,# of interferograms,center incidence angle,heading angle,Status,Path on kunlun
 Sentinel-1,Asc,172,IW,N/A,N/A,N/A,20141017,20231217,431,,,,,SLC,/home/eedy/data/jinsha/s1_a172
-Sentinel-1,Asc,99,IW,N/A,N/A,N/A,20150913,20230907,1000,,,,,SLC,/home/yunjunz/data/jinsha/s1_a099
-Sentinel-1,Asc,26,IW,N/A,N/A,N/A,20141019,20230902,698,,2175,39.923946,-12.49869592,ISCE2+mintpy,/home/yunjunz/scratch/jinsha/S1_A026
-Sentinel-1,Asc,128,IW,N/A,N/A,N/A,20141014,20230909,679,,,,,SLC,/home/yunjunz/data/jinsha/s1_a128
+Sentinel-1,Asc,99,IW,N/A,N/A,N/A,20150913,20230907,1000,,,,,SLC,/home/eedy/data/jinsha/s1_a099
+Sentinel-1,Asc,26,IW,N/A,N/A,N/A,20141019,20230902,698,223,2175,39.923946,-12.49869592,ISCE2+mintpy,/home/yunjunz/scratch/jinsha/S1_A026
+Sentinel-1,Asc,128,IW,N/A,N/A,N/A,20141014,20230909,679,,,,,SLC,/home/eedy/data/jinsha/s1_a128
 Sentinel-1,Asc,55,IW,N/A,N/A,N/A,20141021,20231221,219,,,,,SLC,/home/eedy/data/jinsha/s1_a055
 Sentinel-1,Dsc,4,IW,N/A,N/A,N/A,20141029,20231217,220,,,,,SLC,/home/eedy/data/jinsha/s1_d004
-Sentinel-1,Dsc,106,IW,N/A,N/A,N/A,20141024,20230907,467,,2105,40.120422,-167.0319505,ISCE2+mintpy(loading ERA5),/home/eedy/data/jinsha/s1_d106
-Sentinel-1,Dsc,33,IW,N/A,N/A,N/A,20141007,20230926,910,,,,,ISCE2(overlap_resample),/home/eedy/data/jinsha/s1_d033
-Sentinel-1,Dsc,135,IW,N/A,N/A,N/A,20141026,20230921,503,,1615,39.953457,-167.3727086,ISCE2+mintpy,/home/eedy/data/jinsha/s1_d135
-Sentinel-1,Dsc,62,IW,N/A,N/A,N/A,20141009,20240126,1028,,,39.863186,-167.3173599,ISCE2(unwrap),/home/eedy/data/jinsha/s1_d062
+Sentinel-1,Dsc,106,IW,N/A,N/A,N/A,20141024,20230907,467,216,2105,40.120422,-167.0319505,ISCE2+mintpy(loading ERA5),/home/eedy/data/jinsha/s1_d106
+Sentinel-1,Dsc,33,IW,N/A,N/A,N/A,20141007,20230926,910,,,,,ISCE2(unwrap),/home/eedy/data/jinsha/s1_d033
+Sentinel-1,Dsc,135,IW,N/A,N/A,N/A,20141026,20230921,503,167,1615,39.953457,-167.3727086,ISCE2+mintpy,/home/eedy/data/jinsha/s1_d135
+Sentinel-1,Dsc,62,IW,N/A,N/A,N/A,20141009,20240126,1028,271,2655,39.863186,-167.3173599,ISCE2+mintpy(loading ERA5),/home/eedy/data/jinsha/s1_d062
 Sentinel-1,Dsc,164,IW,N/A,N/A,N/A,20141028,20210921,314,,,,,SLC,/home/eedy/data/jinsha/s1_d164
 ALOS-2,Asc,147,SM3,RF2_5,510,510,20140926,20220107,14,14,63,31.772198,-12.1922374,isce2+mintpy,/home/yunjunz/data/jinsha/alos2_a147_f510
 ALOS-2,Asc,147,SM3,RF2_6,520,520,20141010,20221223,12,12,51,,,,/home/yunjunz/data/jinsha/alos2_a147_f520
