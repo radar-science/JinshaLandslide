@@ -11,4 +11,4 @@ Sentinel-1,Dsc,135,IW,N/A,N/A,N/A,20141026,20230921,503,167,1615,39.953457,-167.
 Sentinel-1,Dsc,62,IW,N/A,N/A,N/A,20141009,20240126,1028,271,2655,39.863186,-167.3173599,ISCE2+mintpy(loading ERA5),/home/eedy/data/jinsha/s1_d062
 Sentinel-1,Dsc,164,IW,N/A,N/A,N/A,20141028,20210921,314,,,,,SLC,/home/eedy/data/jinsha/s1_d164
 ALOS-2,Asc,147,SM3,RF2_5,510,510,20140926,20220107,14,14,63,31.772198,-12.1922374,isce2+mintpy,/home/yunjunz/data/jinsha/alos2_a147_f510
-ALOS-2,Asc,147,SM3,RF2_6,520,520,20141010,20221223,12,12,51,,,,/home/yunjunz/data/jinsha/alos2_a147_f520
+ALOS-2,Asc,147,SM3,RF2_6,520,520,20141010,20221223,12,12,51,36.530163,-12.212342,isce2+mintpy,/home/yunjunz/data/jinsha/alos2_a147_f520
