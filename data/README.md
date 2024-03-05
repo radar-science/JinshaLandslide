@@ -9,9 +9,9 @@
 
 + Search and download from ASF: https://search.asf.alaska.edu/
 
-| Ascending orbits    | Descending orbits   |
-| ------------------- | ------------------- |
-| ![cat](loc_S1A.jpg) | ![dog](loc_S1D.jpg) |
+| Ascending orbits            | Descending orbits           |
+| --------------------------- | --------------------------- |
+| ![asc](../docs/loc_S1A.jpg) | ![dsc](../docs/loc_S1D.jpg) |
 
 #### ALOS-2
 
