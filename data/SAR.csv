@@ -5,7 +5,7 @@ Sentinel-1,Asc,26,IW,N/A,N/A,N/A,20141019,20230902,698,223,2175,39.923946,-12.49
 Sentinel-1,Asc,128,IW,N/A,N/A,N/A,20141014,20230909,679,,,,,SLC,/home/eedy/data/jinsha/s1_a128
 Sentinel-1,Asc,55,IW,N/A,N/A,N/A,20141021,20231221,219,,,,,SLC,/home/eedy/data/jinsha/s1_a055
 Sentinel-1,Dsc,4,IW,N/A,N/A,N/A,20141029,20231217,220,,,,,SLC,/home/eedy/data/jinsha/s1_d004
-Sentinel-1,Dsc,106,IW,N/A,N/A,N/A,20141024,20230907,467,216,2105,40.120422,-167.0319505,ISCE2+mintpy(loading ERA5),/home/eedy/data/jinsha/s1_d106
+Sentinel-1,Dsc,106,IW,N/A,N/A,N/A,20141024,20230907,467,216,2105,40.120422,-167.0319505,ISCE2+mintpy,/home/eedy/data/jinsha/s1_d106
 Sentinel-1,Dsc,33,IW,N/A,N/A,N/A,20141007,20230926,910,,,,,ISCE2(unwrap),/home/eedy/data/jinsha/s1_d033
 Sentinel-1,Dsc,135,IW,N/A,N/A,N/A,20141026,20230921,503,167,1615,39.953457,-167.3727086,ISCE2+mintpy,/home/eedy/data/jinsha/s1_d135
 Sentinel-1,Dsc,62,IW,N/A,N/A,N/A,20141009,20240126,1028,271,2655,39.863186,-167.3173599,ISCE2+mintpy(loading ERA5),/home/eedy/data/jinsha/s1_d062
