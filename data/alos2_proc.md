@@ -8,7 +8,7 @@ load_alosStack
 cd ~/data/jinsha/alos2_a148
 
 ## a. prepare ALOS-2 data via stripmapStack/prepSlcALOS2.py
-${ISCE_STACK}/stripmapStack/prepSlcALOS2.py -i download -o SLC --alosStack
+${ISCE_STACK}/stripmapStack/prepSlcALOS2.py -i download --alosStack
 
 ## b. prepare the config and run files
 cp ../alos2_a147_f520/Jinsha*.txt JinshaAlos2A148.txt  # then update content
