@@ -19,7 +19,7 @@ printf "bash cmd_1.sh\nbash cmd_2.sh\nbash cmd_3.sh\nbash cmd_4.sh" > run_all_cm
 ## c. run processing steps in screen
 screen -S jinsha_alos2_a148 -L
 load_insar
-load_alosStack
+load_alos_stack
 bash run_all_cmd.sh
 ```
 
