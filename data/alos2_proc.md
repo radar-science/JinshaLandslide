@@ -1,5 +1,28 @@
 ## Notes on ALOS-2 data processing
 
+### 1. isce2/alosStack processing
+
+```bash
+load_insar
+load_alosStack
+cd ~/data/jinsha/alos2_a148
+
+## a. prepare ALOS-2 data via stripmapStack/prepSlcALOS2.py
+${ISCE_STACK}/stripmapStack/prepSlcALOS2.py -i download -o SLC --alosStack
+
+## b. prepare the config and run files
+cp ../alos2_a147_f520/Jinsha*.txt JinshaAlos2A148.txt  # then update content
+cp ../alos2_a147_f520/alosStack.xml .                  # then update content
+${ISCE_STACK}/alosStack/create_cmds.py -stack_par alosStack.xml
+printf "bash cmd_1.sh\nbash cmd_2.sh\nbash cmd_3.sh\nbash cmd_4.sh" > run_all_cmd.sh
+
+## c. run processing steps in screen
+screen -S jinsha_alos2_a148 -L
+load_insar
+load_alosStack
+bash run_all_cmd.sh
+```
+
 ### Ionospheric correction
 
 1. Estimate ionospheric delays in isce2/alosStack.
