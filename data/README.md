@@ -18,5 +18,5 @@
 + Search on G-Portal: https://gportal.jaxa.jp/gpr/
 
 <p align="center">
-  <img width="600" src="../docs/vel_alos2_a147.jpg">
+  <img width="600" src="../docs/vel_alos2_asc.jpg">
 </p>
