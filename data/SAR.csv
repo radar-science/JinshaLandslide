@@ -1,15 +1,15 @@
 ﻿Sensor,Orbit direction,Track,Mode,Beam,Start frame,End frame,Start date,End date,# of scenes,# of acquisitions,# of interferograms,center incidence angle,heading angle,Status,Path on kunlun
 Sentinel-1,Asc,172,IW,N/A,N/A,N/A,20141017,20231217,431,206,2005,40.1,-12.8,ISCE2+mintpy,/home/eedy/data/jinsha/s1_a172
-Sentinel-1,Asc,99,IW,N/A,N/A,N/A,20141012,20231224,1262,,,,,ISCE2,/home/eedy/data/jinsha/s1_a099
-Sentinel-1,Asc,26,IW,N/A,N/A,N/A,20141019,20230902,698,223,2175,39.9,-12.5,ISCE2+mintpy,/home/yunjunz/scratch/jinsha/S1_A026
+Sentinel-1,Asc,99,IW,N/A,N/A,N/A,20141012,20231224,1262, , , , ,ISCE2,/home/eedy/data/jinsha/s1_a099
+Sentinel-1,Asc,26,IW,N/A,N/A,N/A,20141019,20231231,723,230,2245,39.9,-12.5,ISCE2+mintpy,/home/eedy/data/jinsha/s1_a026
 Sentinel-1,Asc,128,IW,N/A,N/A,N/A,20141014,20231226,481,232,2257,39.9,-12.5,ISCE2+mintpy,/home/eedy/data/jinsha/s1_a128
 Sentinel-1,Asc,55,IW,N/A,N/A,N/A,20141021,20231221,430,202,1824,39.7,-12.6,ISCE2+mintpy,/home/eedy/data/jinsha/s1_a055
-Sentinel-1,Dsc,4,IW,N/A,N/A,N/A,20141029,20231229,637, , , , ,ISCE2(updating larger area)+mintpy,/home/eedy/data/jinsha/s1_d004
+Sentinel-1,Dsc,4,IW,N/A,N/A,N/A,20141029,20231229,637,212,1976,40.1,-167,ISCE2+mintpy,/home/eedy/data/jinsha/s1_d004
 Sentinel-1,Dsc,106,IW,N/A,N/A,N/A,20141024,20230907,467,216,2105,40.1,-167,ISCE2+mintpy,/home/eedy/data/jinsha/s1_d106
-Sentinel-1,Dsc,33,IW,N/A,N/A,N/A,20141007,20230926,910,,1869,,-167.2,ISCE2+mintpy(updating 2018pairs),/home/eedy/data/jinsha/s1_d033
-Sentinel-1,Dsc,135,IW,N/A,N/A,N/A,20141026,20230921,503,167,1615,40,-167.4,ISCE2+mintpy,/home/eedy/data/jinsha/s1_d135
+Sentinel-1,Dsc,33,IW,N/A,N/A,N/A,20141007,20231219,938, , , , ,ISCE2,/home/eedy/data/jinsha/s1_d033
+Sentinel-1,Dsc,135,IW,N/A,N/A,N/A,20141026,20231226,527,175,1695,40,-167.4,ISCE2+mintpy,/home/eedy/data/jinsha/s1_d135
 Sentinel-1,Dsc,62,IW,N/A,N/A,N/A,20141009,20240126,1028,271,2655,39.9,-167.3,ISCE2+mintpy,/home/eedy/data/jinsha/s1_d062
-Sentinel-1,Dsc,164,IW,N/A,N/A,N/A,20141028,20210921,314, , , , ,ISCE2(updating larger area)+mintpy,/home/eedy/data/jinsha/s1_d164
+Sentinel-1,Dsc,164,IW,N/A,N/A,N/A,20141028,20210921,314,141,1246,39.7,-167.3,ISCE2+mintpy,/home/eedy/data/jinsha/s1_d164
 ALOS-2,Asc,147,SM3,RF2_5,510,510,20140926,20220107,14,14,63,31.8,-12.2,isce2+mintpy,/home/yunjunz/data/jinsha/alos2_a147_f510
 ALOS-2,Asc,147,SM3,RF2_6,520,520,20141010,20221223,12,12,51,36.5,-12.2,isce2+mintpy,/home/yunjunz/data/jinsha/alos2_a147_f520
 ALOS-2,Asc,148,SM3,RF2_6,510,520,20141112,20231227,40,20,99,40.7,-12.2,ISCE2+mintpy,/home/yunjunz/data/jinsha/alos2_a148
