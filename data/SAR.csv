@@ -1,6 +1,6 @@
 ﻿Sensor,Orbit direction,Track,Mode,Beam,Start frame,End frame,Start date,End date,# of scenes,# of acquisitions,# of interferograms,center incidence angle,heading angle,Status,Path on kunlun
 Sentinel-1,Asc,172,IW,N/A,N/A,N/A,20141017,20231217,431,206,2005,40.1,-12.8,ISCE2+mintpy,/home/eedy/data/jinsha/s1_a172
-Sentinel-1,Asc,99,IW,N/A,N/A,N/A,20141012,20231224,1262, , , , ,ISCE2,/home/eedy/data/jinsha/s1_a099
+Sentinel-1,Asc,99,IW,N/A,N/A,N/A,20141012,20231224,1262,190,1753,40.1,-12.5,ISCE2+mintpy,/home/eedy/data/jinsha/s1_a099
 Sentinel-1,Asc,26,IW,N/A,N/A,N/A,20141019,20231231,723,230,2245,39.9,-12.5,ISCE2+mintpy,/home/eedy/data/jinsha/s1_a026
 Sentinel-1,Asc,128,IW,N/A,N/A,N/A,20141014,20231226,481,232,2257,39.9,-12.5,ISCE2+mintpy,/home/eedy/data/jinsha/s1_a128
 Sentinel-1,Asc,55,IW,N/A,N/A,N/A,20141021,20231221,430,202,1824,39.7,-12.6,ISCE2+mintpy,/home/eedy/data/jinsha/s1_a055
